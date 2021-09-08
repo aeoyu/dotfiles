@@ -3,8 +3,6 @@
 	email = filorat@outlook.com
 	name = Filora T
 
-
-
 [alias]
 	co = checkout
 	st = status
@@ -13,3 +11,14 @@
 	c = commit
 	ca = commit --amend
 	cm = commit -m
+	 # branch
+  	b = branch -v
+
+	# log
+	l = log --graph --pretty=format:'%Cred%h %Cblue%an:%Creset %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	log = log --graph --date=short
+	fl = log -u
+
+	# add
+	a = add
