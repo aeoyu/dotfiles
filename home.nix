@@ -1,5 +1,7 @@
 { config, pkgs, ... }:
 
+oijasdioj
+
 {
   programs.home-manager.enable = true;
   programs.fzf = {
