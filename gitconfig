@@ -1,0 +1,13 @@
+# vim: filetype=sh
+[user]
+	email = filorat@outlook.com
+	name = Filora T
+
+[alias]
+	co = checkout
+	st = status
+
+	# commit
+	c = commit
+	ca = commit --amend
+	cm = commit -m
